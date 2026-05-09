@@ -14,7 +14,7 @@ All inference runs locally — no email content leaves your machine.
 ## Stack
 
 - **LangChain + LangGraph** — agent framework
-- **Ollama (`llama3.2:3b`)** — local LLM, no API key required
+- **Ollama (`llama3.2:3b`)** — local LLM
 - **Gmail API** — email access via OAuth 2.0
 - **Pydantic** — structured output from the LLM
 - **uv** — dependency and environment management
@@ -51,7 +51,7 @@ ollama pull llama3.2:3b
 ### Install
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/njiah/tilly.git
 cd tilly
 uv venv
 source .venv/bin/activate
